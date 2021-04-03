@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "clear && node node_modules/json-server/lib/cli/bin.js --watch database/users.json --port 3004"
+    "server": "clear && node node_modules/json-server/lib/cli/bin.js --watch database/monsters.json --port 3004",
+    "peixes": "clear && node node_modules/json-server/lib/cli/bin.js --watch database/peixes.json --port 3004"
   },
   "eslintConfig": {
     "extends": [

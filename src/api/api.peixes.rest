@@ -1,0 +1,30 @@
+### Buscar a lista de peixes
+GET http://localhost:3004/peixes HTTP/1.1
+
+### Inserir um peixe
+
+POST http://localhost:3004/peixes HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Truta"
+}
+
+### Alterar todas as informações de um peixe
+PUT http://localhost:3004/peixes/3 HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Truta Arco-íris"
+}
+
+### Alterar alguma das informações de um peixe
+PATCH http://localhost:3004/peixes/3 HTTP/1.1
+content-type: application/json
+
+{
+  "nome": "Truta Marrom"
+}
+
+### Remover um registro
+DELETE http://localhost:3004/peixes/3 HTTP/1.1
