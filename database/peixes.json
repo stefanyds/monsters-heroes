@@ -1,0 +1,16 @@
+{
+  "peixes": [
+    {
+      "id": 1,
+      "nome": "Tilápia"
+    },
+    {
+      "id": 2,
+      "nome": "Salmão"
+    },
+    {
+      "nome": "Truta Marrom",
+      "id": 3
+    }
+  ]
+}
