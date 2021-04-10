@@ -1,28 +1,39 @@
 {
   "users": [
     {
+      "id": 1,
       "username": "aldops",
       "name": "Aldo Pires",
       "email": "pires.aldo@disney.com",
       "password": "123oliveira"
     },
     {
+      "id": 2,
       "username": "stefanyrs",
       "name": "Stefany Souza",
       "email": "souza.stefany@rbr.com",
       "password": "456pao"
     },
     {
+      "id": 3,
       "username": "saitama",
       "name": "Marlo Motta",
       "email": "motta.marlo@hero.br",
       "password": "789devmaster"
     },
     {
-      "username": "danielc",
-      "name": "Daniel Carlos",
-      "email": "carlos.daniel@sephora.com",
-      "password": "0456bmw"
+      "username": "jureg",
+      "name": "Shrek Steig",
+      "email": "shrekbeatthanos@pixar.us",
+      "password": "193swamp",
+      "id": 4
+    },
+    {
+      "username": "luparsene",
+      "name": "Arsene Lupin",
+      "email": "ouilupin@psg.fr",
+      "password": "04locomotive",
+      "id": 5
     }
   ]
 }
