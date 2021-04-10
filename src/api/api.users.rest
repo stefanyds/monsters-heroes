@@ -1,0 +1,46 @@
+### Buscar users
+GET http://localhost:3004/users HTTP/1.1 
+
+### Inserir um user
+POST http://localhost:3004/users HTTP/1.1
+content-type: application/json
+
+{
+  "username": "luparsene",
+  "name": "Arsene Lupin",
+  "email": "ouilupin@psg.fr",
+  "password": "04locomotive"
+}
+
+### Alterar todas as informações de um user
+PUT http://localhost:3004/users/4 HTTP/1.1
+content-type: application/json
+
+{
+  "username": "jureg",
+  "name": "Shrek Silva",
+  "email": "shrekbeatthanos@pixar.us",
+  "password": "193swamp"
+}
+
+### Altera alguma das informações de um user
+PATCH http://localhost:3004/users/4 HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Shrek Steig"
+}
+
+### Adicionar mais um user
+POST http://localhost:3004/users HTTP/1.1
+content-type: application/json
+
+{
+  "username": "dolohogwarts",
+  "name": "Dolores Dumbridge",
+  "email": "dolorescow@hog.uk",
+  "password": "harryinmyroom"
+}
+
+### Deletando um user
+DELETE http://localhost:3004/users/6 HTTP/1.1
