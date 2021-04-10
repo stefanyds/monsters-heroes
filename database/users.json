@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "username": "aldops",
+      "name": "Aldo Pires",
+      "email": "pires.aldo@disney.com",
+      "password": "123oliveira"
+    },
+    {
+      "username": "stefanyrs",
+      "name": "Stefany Souza",
+      "email": "souza.stefany@rbr.com",
+      "password": "456pao"
+    },
+    {
+      "username": "saitama",
+      "name": "Marlo Motta",
+      "email": "motta.marlo@hero.br",
+      "password": "789devmaster"
+    },
+    {
+      "username": "danielc",
+      "name": "Daniel Carlos",
+      "email": "carlos.daniel@sephora.com",
+      "password": "0456bmw"
+    }
+  ]
+}
