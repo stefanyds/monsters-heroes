@@ -1,0 +1,10 @@
+.search-field {
+  border: none;
+  outline: none;
+  padding: 10px;
+  width: 150px;
+  margin-bottom: 20px;
+  line-height: 10px;
+  background-color: lightgray;
+  border-radius: 5px;
+}
